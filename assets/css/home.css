@@ -1,0 +1,92 @@
+/* Reset some default styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Centered text styles */
+.center-text h1 {
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.center-text p {
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    color: #777;
+    margin-top: 20px;
+}
+
+/* Input container styles */
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 150px;
+    background-color: lightgoldenrodyellow;
+    border: 2px solid lightcyan;
+    margin: 50px auto;
+}
+
+.upload-btn {
+    width: 150px;
+    height: 50px;
+    border: none;
+    background-color: mediumorchid;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.upload-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 3px 6px rgba(75, 136, 253, 0.4);
+}
+
+/* List center text styles */
+.list-center-text {
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: rgb(52, 177, 138);
+    margin-top: 50px;
+    padding: 20px 0;
+}
+
+.list-center-text h2 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.no-file {
+    font-size: 24px;
+    color: steelblue;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* Optional: collapse borders */
+}
+
+th, td {
+    border: 1px solid #dddddd; /* Optional: add border to cells */
+    padding: 8px; /* Optional: add padding to cells */
+    text-align: left; /* Optional: align text to left */
+}
+
+th {
+    background-color: #f2f2f2; /* Optional: background color for header cells */
+}
